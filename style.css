@@ -1,10 +1,15 @@
-body{
-    background-color: #B59F8A;
+*{
+    body{
+        background-color: #B59F8A;
+    }
+    
+    img{
+        width: 100%;
+    }
+    
 }
 
-img{
-    width: 100%;
-}
+
 
 
 
