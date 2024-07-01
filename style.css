@@ -1,15 +1,16 @@
+/* seletor niversal-todos vão ter essa formatação*/
 *{
-    body{
-        background-color: #B59F8A;
-    }
-    
-    img{
-        width: 100%;
-    }
-    
+    margin: 0;/* sem margem*/
+    padding: 0;/* sem espaçamento interno*/
+
 }
 
+header{ 
+    background-color: #B79F91
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
 
-
-
+}
 
