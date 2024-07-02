@@ -1,18 +1,142 @@
-/* seletor niversal-todos vão ter essa formatação*/
-*{
-    margin: 0;/* sem margem*/
-    padding: 0;/* sem espaçamento interno*/
-
+body{
+    background-color: #B79F91;
 }
 
-header{ 
-    background-color: #B79F91 
+img{
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+header {
+    background: #B79F91 ;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header  .container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 10px; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
+header h1 {
+    max-width: 0;
 }
-root{
-    --cor-de-fundo: #B79F91 
+
+nav ul {
+    list-style: none;
+    display: flex;
 }
+
+nav ul {
+    margin: 20px;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url(reciclagem\ 4.png) no-repeat  center center/cover;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: o auto;
+    padding: 20px;
+}
+
+#serviços, #sobre, #contato {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.servico {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: #a5a5a5;
+    border-radius: 5px;
+}
+
+form button {
+    background: #000000;
+    color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+form button:hover {
+    background: #B79F91;
+}
+
+footer{
+    background: #B79F91;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
